@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Currency Values</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://kit.fontawesome.com/8b134085b2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <img src="../static/images/Cryptocurrency.jpg" alt="" height="810px" width="100%">
+    <header class="headerr">
+        <div class="header">
+            <h1 class="font"><i class="fa-brands fa-slack" style="color: #3067f0;"></i></h1>
+            <h1 class="waz">WazirX</h1>
+        </div>
+        <nav>
+            <a href="#">Buy Crypto</a>
+            <a href="#">Exchange</a>
+            <a href="#">P2P</a>
+            <a href="#">Learn</a>
+            <a href="#">News</a>
+        </nav>
+        <div class="lastheader">
+            <h2 class="font1"><i class="fa-solid fa-globe" style="color: beige;"></i></h2>
+            <h2 class="eng">English</h2>
+        </div>
+    </header>
+    <div class="values">
+        <h4 class="cryptoss">WazirX</h4>
+        <h4 class="get">Get Accurate</h4>
+        <h4 class="cur">values of your currencies with</h4>
+    </div>
+    <form action="" method="post">
+        <select name="coin" id="" onchange="Selection">
+            <option value="">Choose Currency</option>
+            <option value="ABC">ABC</option>
+            <option value="ACP">ACP</option>
+            <option value="ACT">ACT</option>
+            <option value="BAR">BAR</option>
+            <option value="BAT">BAT</option>
+            <option value="BAT">BAY</option>
+            <option value="CAS">CAS</option>
+            <option value="CAT">CAT</option>
+            <option value="CDT">CDT</option>
+            <option value="CND">CND</option>
+            <option value="CNX">CNX</option>
+            <option value="DAS">DAS</option>
+            <option value="DASH">DASH</option>
+            <option value="DATA">DATA</option>
+            <option value="EC">EC</option>
+            <option value="EDO">EDO</option>
+            <option value="FCT">FCT</option>
+            <option value="ACT">FLP</option>
+            <option value="GNO">GNO</option>
+            <option value="BNT">GNT</option>
+            <option value="KIN">KIN</option>
+            <option value="LA">LA</option>
+            <option value="MLN">MLN</option>
+            <option value="NAS">NAS</option>
+        </select>
+        <a href="{{url_for('result')}}"><button type="submit" class="btn2">Get Value</button></a>
+    </form>
+    <div class="result">
+        <h1 class="s">Status : {{success}}</h1>
+        <h1 class="t">Target : {{target}}</h1>
+        <h1 class="c">Value of {{coin}}</h1>
+        <h1 class="b">{{box}}</h1>
+    </div>
+
+</body>
+
+</html>

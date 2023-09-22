@@ -1,0 +1,350 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col_1 {
+    width: 8.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_2 {
+    width: 16.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_3 {
+    width: 25%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_4 {
+    width: 33.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_5 {
+    width: 41.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_6 {
+    width: 50%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_7 {
+    width: 58.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_8 {
+    width: 66.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_9 {
+    width: 75%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_10 {
+    width: 83.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_11 {
+    width: 91.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_12 {
+    width: 100%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+/* header section starts here */
+
+.head {
+    display: flex;
+    height: 100px;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+}
+
+.waz {
+    color: #3067f0;
+    margin-top: 32px;
+    margin-left: 6px;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+}
+
+.font {
+    font-size: 45px;
+    margin-top: 25px;
+    margin-left: 120px;
+}
+
+nav {
+    margin-top: 33px;
+    margin-left: 170px;
+}
+
+a {
+    text-decoration-line: none;
+    color: beige;
+    margin-left: 40px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+}
+
+.lastheader {
+    display: flex;
+    color: beige;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+
+.font1 {
+    font-size: 33px;
+}
+
+.eng {
+    margin-left: 7px;
+    margin-top: 6px;
+}
+
+.help {
+    margin-left: 30px;
+    margin-top: 6px;
+}
+
+/* backgroundvideo section starts here  */
+
+video {
+    width: 100%;
+    object-fit: fill;
+    height: 710px;
+    position: relative;
+    filter: brightness(50%);
+    filter: blur(5px);
+}
+
+.content {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: white;
+    display: flex;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 7px 4px 3px black;
+}
+
+.content1 {
+    position: absolute;
+    top: 28%;
+    left: 30%;
+    color: white;
+    display: flex;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 7px 4px 3px black;
+}
+
+.spl {
+    position: absolute;
+    top: 37%;
+    left: 30%;
+    color: white;
+    display: flex;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 7px 4px 3px black;
+}
+
+.buy {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: white;
+    display: flex;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 7px 4px 3px black;
+}
+
+.start {
+    position: absolute;
+    top: 58%;
+    left: 30%;
+    color: white;
+    display: flex;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 7px 4px 3px black;
+}
+
+/* points section starts here  */
+
+.button {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    position: absolute;
+    top: 66%;
+    left: 42%;
+}
+
+.btn1 {
+    padding: 15px;
+    border: 3px solid white;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+/* main page starts here */
+
+img {
+    position: relative;
+    filter: brightness(40%);
+    filter: blur(4px);
+}
+
+.values {
+    display: flex;
+}
+
+.get {
+    position: absolute;
+    top: 20%;
+    left: 44.5%;
+    font-size: 28px;
+    color: bisque;
+    text-shadow: 4px 4px 5px black;
+}
+
+.cur {
+    position: absolute;
+    top: 24.5%;
+    left: 37%;
+    font-size: 30px;
+    color: bisque;
+    text-shadow: 4px 4px 5px black;
+}
+
+.cryptoss {
+    position: absolute;
+    top: 30%;
+    left: 42%;
+    font-size: 50px;
+    color: bisque;
+    text-shadow: 7px 4px 3px black;
+}
+
+.btn2 {
+    padding: 14.5px;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    top: 45%;
+    left: 53%;
+}
+
+.btn2:hover {
+    background-color: white;
+    color: green;
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+select {
+    position: absolute;
+    top: 45%;
+    left: 41%;
+    padding: 15px 22px;
+    font-size: 15px;
+}
+
+.s {
+    position: absolute;
+    top: 55%;
+    left: 41%;
+    color: white;
+    text-shadow: 5px 0px 10px black;
+}
+
+.t {
+    position: absolute;
+    top: 60%;
+    left: 41%;
+    color: black;
+    text-shadow: 5px 0px 10px white;
+}
+
+.c {
+    position: absolute;
+    top: 68%;
+    left: 41%;
+    color: white;
+    text-shadow: 5px 0px 10px black;
+}
+
+.b {
+    position: absolute;
+    top: 73%;
+    left: 43%;
+    color: darkslategrey;
+}
+
+.headerr {
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    display: flex;
+}
